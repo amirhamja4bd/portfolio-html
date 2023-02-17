@@ -8,6 +8,7 @@ const errorElement = document.getElementById("error");
 const regex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 
 form.addEventListener("submit",(e)=>{
+    
     let messages = [];
     if(name.value === "" || name.value === null){
         messages.push("You must provide your name")

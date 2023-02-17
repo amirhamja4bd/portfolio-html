@@ -39,7 +39,11 @@
         margin: auto;
     }
 
+    .filters li{
+        margin-top: 10px;
+        margin-bottom: 10px;
 
+    }
 }
 
 @media (max-width:767px) {
@@ -74,10 +78,5 @@
         font-size: 13px;
     }
 
-
-    /* portfolio */
-    .portfolio-wrapper .card{
-        min-height: 500px;
-    }
 
 }
