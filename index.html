@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="images/LogoAH.png">
+    <!-- Bootstrap 5 cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom files link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+
+    <!-- Navbar section -->
+    <header class="header-wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img src="images/portfolio.png" class="img-fluid" alt="Logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                
+                <i class="fa fa-stream navbar-toggler-icon"></i>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <ul class="navbar-nav menu-navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Testimonial</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="main-btn" href="#contact">Hire me</a>
+                      </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- Navbar section Exit -->
+
+    <!-- Banner section -->
+    <div id="home" class="banner-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center text-md-start">
+                    <h6>WELCOME TO MY WORLD</h6>
+                    <h1>I'm Amir Hamza <br> <span>Web Developer.</span> <br>based in BD</h1>
+                    <div class="mt-4">
+                        <a class="main-btn" href="resume/Resume of Amir Hamza.pdf">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Banner section exit -->
+    
+    <!-- About section -->
+    <div id="about" class="abuot-wrapper mt-5">
+      <div class="container">
+        <div class="row justify-content-between align-items-center mt-4">
+          <div class="col-lg-5 mb-4 mb-lg-0 align-middle">
+            <img src="images/about.png" class="img-fluid rounded-3" alt="">
+          </div>
+          <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+            <div class="my-3 my-lg-0">
+              <span class="subtitle">My About Details</span>
+              <h2>About Me</h2>
+              <p>Hello, I'm Amir Hamza, a full-stack web developer with over 3 years of self-experience in creating engaging and user-friendly websites. My expertise lies in using HTML, CSS, JavaScript, MongoDB, Express, React, and Node.js and now I am involved in a team project.</p>
+            </div>
+
+            <div class="mt-4">
+              <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="true">My Skill</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-award-tab" data-bs-toggle="pill" data-bs-target="#pills-award" type="button" role="tab" aria-controls="pills-award" aria-selected="false">Awards</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-experiance-tab" data-bs-toggle="pill" data-bs-target="#pills-experiance" type="button" role="tab" aria-controls="pills-experiance" aria-selected="false">Experiance</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill" data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education" aria-selected="false">Education</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                  <div class="single-progress">
+                    <h6>Bootstrap</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="label">80%</span>
+                  </div>
+
+                  <div class="single-progress">
+                    <h6>Javascript</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="label">95%</span>
+                  </div>
+
+                  <div class="single-progress">
+                    <h6>React</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="label">75%</span>
+                  </div>
+
+                  <div class="single-progress">
+                    <h6>MongoDB</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="label">85%</span>
+                  </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="pills-award" role="tabpanel" aria-labelledby="pills-award-tab">
+                  <ul class="text-start ps-0">
+                    <li><a href="#">Web Developer -<span> Win : </span><span> Certificate </span></a>2023</li>
+                    <li><a href="#">Web Developer -<span> Win : </span><span> Certificate </span></a>2022</li>
+                    <li><a href="#">Web Developer -<span> Win : </span><span> Certificate </span></a>2021</li>
+                    <li><a href="#">Web Developer -<span> Win : </span><span> Certificate </span></a>2020</li>
+                  </ul>
+                </div>
+
+                <div class="tab-pane fade" id="pills-experiance" role="tabpanel" aria-labelledby="pills-experiance-tab">
+                  <ul class="text-start ps-0">
+                    <li><a href="#">Web Development -<span> Ostad </span>-<span>As a Student </span></a>Running</li>
+                    <li><a href="#">Computer Operator -<span> Takesell</span></a>2022 - 2023</li>
+                    <li><a href="#">Web Design And Development -<span> LEDP</span></a>2020 - 2021</li>
+                    <li><a href="#">Web Development -<span> BPI -</span><span> As a Student </span></a>2017 - 2021</li>
+                  </ul>
+                </div>
+
+                <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
+                  <ul class="text-start ps-0">
+                    <li><a href="#">MSc In CSE In future-<span> Canada </span></a>2027 - 2028</li>
+                    <li><a href="#">BSc In CSE In future-<span> Canada </span></a>2024 - 2026</li>
+                    <li><a href="#">Diploma in Engineering -<span> Bangladesh Polytechnic Institute</span></a>2022</li>
+                    <li><a href="#">SSC -<span> Jonail M.L. High School</span></a>2017</li>
+                  </ul>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About section Exit -->
+
+    <!-- Portfolio section -->
+    <section id="portfolio" class="portfolio-wrapper mt-5">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-4">
+          <span class="subtitle">My Portfolio</span>
+          <h2>My Latest Project</h2>
+          <p>I have not done any project so I have given the demo image, title <br class="d-none d-md-block"> and description.  
+            And the icon has a GitHub link.</p>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="filters filter-button-group">
+            <ul>
+              <li class="active"><a href="javascript:void(0);" data-filter="*">All</a></li>
+              <li><a href="javascript:void(0);" data-filter="javascript">Javascript</a></li>
+              <li><a href="javascript:void(0);" data-filter="mongodb">MongoDB</a></li>
+              <li><a href="javascript:void(0);" data-filter="react">React</a></li>
+            </ul>
+          </div>
+          <div id="container" class="isotope">
+            <div class="grid-item" data-filter="mongodb">
+              <a class="popupimg pointer" href="https://github.com/amirhamja4bd" target="blank">
+              <i class="fa-brands fa-github text-danger github-link float-end m-3 fs-2"></i>
+            </a>
+              <img src="https://images.pexels.com/photos/109371/pexels-photo-109371.jpeg?auto=compress&cs=tinysrgb&w=600">
+              <div class="overlay">MongoDb Based Website
+                <p>I have not done any project so I have given the demo image. And the icon has a GitHub link.</p></div>
+            </div>
+            
+            <div class="grid-item" data-filter="react">
+              <a class="popupimg pointer" href="https://github.com/amirhamja4bd" target="blank">
+                <i class="fa-brands fa-github text-danger github-link float-end m-3 fs-2"></i>
+              </a>
+              <img src="/images/portfolio/r4.jfif">
+              <div class="overlay">React Based Website
+                <p>I have not done any project so I have given the demo image. And the icon has a GitHub link.</p>
+                
+              </div>
+            </div>
+            
+            <div class="grid-item" data-filter="mongodb">
+              <a class="popupimg pointer" href="https://github.com/amirhamja4bd" target="blank">
+              <i class="fa-brands fa-github text-danger github-link float-end m-3 fs-2"></i> </a>
+              <img src="/images/portfolio/m1.png">
+              <div class="overlay">MongoDb Based Website
+                <p>I have not done any project so I have given the demo image. And the icon has a GitHub link.</p></div>
+            </div>
+            
+            <div class="grid-item" data-filter="javascript">
+              <a class="popupimg pointer" href="https://github.com/amirhamja4bd" target="blank">
+                <i class="fa-brands fa-github text-danger github-link float-end m-3 fs-2"></i></a>
+                <img src="/images/portfolio/j3.png">
+              <div class="overlay">Javascript Based Website
+                <p>I have not done any project so I have given the demo image. And the icon has a GitHub link.</p></div>
+            </div>
+            
+            <div class="grid-item" data-filter="react">
+              <a class="popupimg pointer" href="https://github.com/amirhamja4bd" target="blank">
+              <i class="fa-brands fa-github text-danger github-link float-end m-3 fs-2"></i></a>
+              <img src="/images/portfolio/r3.jfif">
+              
+              <div class="overlay">React Based Website
+                <p>I have not done any project so I have given the demo image. And the icon has a GitHub link.</p></div>
+            </div>
+            
+            <div class="grid-item" data-filter="mongodb">
+              <a class="popupimg pointer" href="https://github.com/amirhamja4bd" target="blank">
+              <i class="fa-brands fa-github text-danger github-link float-end m-3 fs-2"></i></a>
+              <img src="/images/portfolio/m2.jfif">
+              
+              <div class="overlay">MongoDb Based Website
+                <p>I have not done any project so I have given the demo image. And the icon has a GitHub link.</p></div>
+            </div>
+            
+            <div class="grid-item" data-filter="javascript">
+              <a class="popupimg pointer" href="https://github.com/amirhamja4bd" target="blank">
+                <i class="fa-brands fa-github text-danger github-link float-end m-3 fs-2"></i>
+              </a>
+              <img src="/images/portfolio/j1.jfif">
+              
+              <div class="overlay">Javascript Based Website
+                <p>I have not done any project so I have given the demo image. And the image has a GitHub link.</p></div>
+            </div>
+            
+            <div class="grid-item" data-filter="react">
+              <a class="popupimg pointer" href="https://github.com/amirhamja4bd" target="blank">
+                <i class="fa-brands fa-github text-danger github-link float-end m-3 fs-2"></i></a>
+              <img src="/images/portfolio/r2.jfif">
+              
+              <div class="overlay">React Based Website
+                <p>I have not done any project so I have given the demo image. And the icon has a GitHub link.</p></div>
+            </div>
+            
+            <div class="grid-item" data-filter="mongodb">
+              <a class="popupimg pointer" href="https://github.com/amirhamja4bd" target="blank">
+                <i class="fa-brands fa-github text-danger github-link float-end m-3 fs-2"></i>
+              </a>
+                <img src="/images/portfolio/m3.png">
+              <div class="overlay">MongoDb Based Website
+                <p>I have not done any project so I have given the demo image. And the icon has a GitHub link.</p></div>
+            </div>
+            
+            <div class="grid-item" data-filter="javascript">
+              <a class="popupimg pointer" href="https://github.com/amirhamja4bd" target="blank">
+                <i class="fa-brands fa-github text-danger github-link float-end m-3 fs-2"></i>
+              </a>
+              <img src="/images/portfolio/j.png">
+              
+              <div class="overlay">Javascript Based Website
+                <p>I have not done any project so I have given the demo image. And the icon has a GitHub link.</p></div>
+            </div>
+            
+            <div class="grid-item" data-filter="react">
+              <a class="popupimg pointer" href="https://github.com/amirhamja4bd" target="blank">
+                <i class="fa-brands fa-github text-danger github-link float-end m-3 fs-2"></i>
+              </a>
+              <img src="/images/portfolio/r1.jfif">
+              
+              <div class="overlay">React Based Website
+                <p>I have not done any project so I have given the demo image. And the icon has a GitHub link.</p></div>
+            </div>
+            
+            <div class="grid-item" data-filter="mongodb">
+              <a class="popupimg pointer" href="https://github.com/amirhamja4bd" target="blank">
+                <i class="fa-brands fa-github text-danger github-link float-end m-3 fs-2"></i>
+              </a>
+              <img src="/images/portfolio/m4.jfif">
+              
+              <div class="overlay">MongoDb Based Website
+                <p>I have not done any project so I have given the demo image. And the icon has a GitHub link.</p></div>
+            </div>
+            
+            <div class="grid-item" data-filter="javascript">
+              <a class="popupimg pointer" href="https://github.com/amirhamja4bd" target="blank">
+                <i class="fa-brands fa-github text-danger github-link float-end m-3 fs-2"></i>
+              </a>
+              <img src="/images/portfolio/j2.png">
+              
+              <div class="overlay">Javascript Based Website
+                <p>I have not done any project so I have given the demo image. And the icon has a GitHub link.</p></div>
+            </div>
+            
+            <div class="grid-item" data-filter="react">
+              <a class="popupimg pointer" href="https://github.com/amirhamja4bd" target="blank">
+                <i class="fa-brands fa-github text-danger github-link float-end m-3 fs-2"></i>
+              </a>
+              <img src="/images/portfolio/r.jfif">
+              
+              <div class="overlay">React Based Website
+                <p>I have not done any project so I have given the demo image. And the icon has a GitHub link.</p></div>
+            </div>
+            
+            <div class="grid-item" data-filter="mongodb">
+              <a class="popupimg pointer" href="https://github.com/amirhamja4bd" target="blank">
+                <i class="fa-brands fa-github text-danger github-link float-end m-3 fs-2"></i>
+              </a>
+              <img src="/images/portfolio/m3.png">
+              
+              <div class="overlay">MongoDb Based Website
+                <p>I have not done any project so I have given the demo image. And the icon has a GitHub link.</p>
+              </div>
+            </div>
+            
+          </div>
+              
+          <div class="isotope-pager" style="padding-top: 15px; text-align:center;">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio section Exit -->
+
+    <!-- Testimonial section Start -->
+    <div id="testimonial" class="col-sm-12 text-center mb-4">
+          <h2>Testimonial</h2>
+          <p>What Thinks Our Community.</p>
+        <section class="container-testimonial">
+          
+          <div class="testimonial mySwiper">
+            <div class="testi-content swiper-wrapper">
+              <div class="slide swiper-slide">
+                <img src="/images/about.png" alt="" class="image" />
+                <p class="test-p">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                  saepe provident dolorem a quaerat quo error facere nihil deleniti
+                  eligendi ipsum adipisci, fugit, architecto amet asperiores
+                  doloremque deserunt eum nemo.
+                </p>
+
+                <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+                <div class="details">
+                  <span class="name test-p">Amir_hamza</span>
+                  <span class="job test-p-sub">Web Developer</span>
+                </div>
+              </div>
+              <div class="slide swiper-slide">
+                <img src="/images/contact.png" alt="" class="image" />
+                <p class="test-p">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                  saepe provident dolorem a quaerat quo error facere nihil deleniti
+                  eligendi ipsum adipisci, fugit, architecto amet asperiores
+                  doloremque deserunt eum nemo.
+                </p>
+
+                <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+                <div class="details">
+                  <span class="name test-p">Parvej Hosain</span>
+                  <span class="job test-p-sub">Web Developer</span>
+                </div>
+              </div>
+              <div class="slide swiper-slide">
+                <img src="/images/about1.jpg" alt="" class="image" />
+                <p class="test-p">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                  saepe provident dolorem a quaerat quo error facere nihil deleniti
+                  eligendi ipsum adipisci, fugit, architecto amet asperiores
+                  doloremque deserunt eum nemo.
+                </p>
+
+                <i class="bx bxs-quote-alt-left quote-icon quote-icon-color"></i>
+
+                <div class="details">
+                  <span class="name test-p">Rayhan Ali</span>
+                  <span class="job test-p-sub">Web Developer</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next nav-btn"></div>
+            <div class="swiper-button-prev nav-btn"></div>
+            <!-- <div class="swiper-pagination"></div> -->
+          </div>
+        </section>
+    </div>
+    <!-- Testimonial section End -->
+
+    <!-- Contact section -->
+    <section id="contact" class="contact-wrapper">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+            <span class="subtitle">Send A Message</span>
+            <h2>Hire Me.</h2>
+            <div class="row call_details mb-4">
+              <label class="col-sm-3 col-lg-4">Call us Directly:</label>
+
+              <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                <a href="javascript:void(0)">+8801756386529</a>
+              </div>
+
+              <label class="col-sm-3 col-lg-4">Contact Email:</label>
+
+              <div class="col-sm-9 col-lg-8 mb-lg-2 text-md-start">
+                <a href="mailto:amirhamja4bd@gmail.com">amirhamja4bd@gmail.com</a>
+              </div>
+            </div>
+            <div id="error" class=" text-danger lead py-2"></div>
+            <form id="form" action="/" method="GET">
+              <div class="mb-4">
+                <input id="name" type="text" class="form-control" placeholder="Your Name..." autocomplete="off">
+              </div>
+              <div class="mb-4">
+                <input id="email" type="emails" class="form-control" placeholder="Your Email..." autocomplete="off">
+              </div>
+              <div class="mb-4">
+                <input id="subject" type="text" class="form-control" placeholder="Subject..." autocomplete="off">
+              </div>
+              <div class="mb-4">
+                <textarea cols="40" rows="4" class="form-control" id="message" placeholder="Write a Message..." autocomplete="off"></textarea>
+              </div>
+              <button type="submit" class="main-btn">Submit</button>
+            </form>
+          </div>
+          <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0 text-center">
+            <img src="./images/contact.png" class="img-fluid rounded-3  " alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section Exit -->
+
+    <!-- Footer section -->
+    <section id="contact" class="footer_wraper mt-3 mt-md-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-md-6 text-center text-md-start">
+            <div class="footer-logo mb-3 mb-md-0">
+              <img src="images/portfolio.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <ul class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+              <li>
+                <a href="https://www.instagram.com/amirhamja360/" target="_blank"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/amirhamja360/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/amirhamja360" target="_blank"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/amirhamja656/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+              <p class="mb-0">Copyright © 2022 <a href="#">Amir_hamza</a>. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer section Exit -->
+
+
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'>
+
+    
+    </script>
+    
+    
+    <!-- custom js link -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <script  src="js/script.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/formValidation.js"></script>
+    
+</body>
+</html>
